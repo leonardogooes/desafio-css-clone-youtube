@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: auto;
+    height: 56px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+}
+.menu-logo {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0 0 0;
+}
+.menu-logo #logo-imagem {
+    width: 90px;
+    height: 20px;
+    margin-top: 2px;
+}
+.search {
+    width: 404px;
+    height: 40px;
+    display: flex;
+    margin: 8px 0 0 0;
+}
+.search #search-field {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 25px 0 0 25px;
+    padding-left: 20px;
+}
+.search #icone-busca {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 25px 25px 0;
+    margin-right: 10px;
+}
+.search #icone-voz {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 25px;
+}
+.search #imagem-voz {
+    width: 24px;
+    height: 24px;
+}
+.menu-right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    gap: 24px;
+    margin-top: 10px;
+    align-items: center;
+}
+.menu-right #icone-criarvideo {
+    width: 24px;
+    height: 24px;
+}
+.menu-right #icone-notificacao {
+    width: 24px;
+    height: 24px;
+}
+.menu-right #foto-usuario {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.video {
+    width: 952px;
+    height: 746px;
+    margin: 34px 0 0 75px;
+}
+.video iframe {
+    border-radius: 8px;
+}
+.video #titulo-video {
+    height: 23px;
+}
+.video #titulo-video h1 {
+    font: 600 20px / 23px "Roboto";
+    margin-top: 10px;
+}
+.video #video-information {
+    width: 902px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.video #video-information #canal-informations {
+    width: 200px;
+    height: 42px;
+    display: flex;
+    gap: 12px;
+}
+#video-information #canal-informations #logo-canal{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+#canal-informations #name-inscricoes {
+    width: 150px;
+    height: 32px;
+    margin-top: 5px;
+} 
+#canal-informations #name-inscricoes #nome-canal {
+    font: 600 14px / 16px "Roboto";
+    text-decoration: none;
+    color: #000000;
+}
+#canal-informations #name-inscricoes #quantidade-inscritos {
+    font: 400 14px / 16px "Roboto";
+}
+#video-information #inscrever {
+    width: 159px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #CC0000;
+    background-color: #CC0000;
+    font: 600 14px / 16px "Roboto";
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#video-information #botao-gostei {
+    width: 92px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #CCCCCC;
+    padding-left: 4px;
+}
+#botao-gostei #gostei {
+    width: 24px;
+    height: 24px;
+}
+#botao-gostei #text-gostei {
+    font: 600 14px / 16px "Roboto";
+    padding-left: 6px;
+}
+#video-information #botao-nao-gostei {
+    width: 112px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 0 8px 8px 0;
+    margin-left: -40px;
+    border: 1px solid #CCCCCC;
+    padding-left: 4px;
+}
+#botao-nao-gostei #nao-gostei {
+    width: 24px;
+    height: 24px;
+}
+#botao-nao-gostei #text-nao-gostei {
+    font: 600 14px / 16px "Roboto";
+    padding-left: 6px;
+}
+#video-information #botao-compartilhar {
+    width: 122px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 9px;
+    padding-left: 4px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+#botao-compartilhar #text-compartilha {
+    font: 600 14px / 16px "Roboto";
+    padding-left: 5px;
+}
+#video-information #botao-download {
+    width: 102px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 9px;
+    padding-left: 4px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+#botao-download #text-download {
+    font: 600 14px / 16px "Roboto";
+    padding-left: 5px;
+}
+.video #description-video #visualization-date {
+    width: 540px;
+    height: 16px;
+    font: 600 14px / 16px "Roboto";
+    margin-top: 10px;
+}
+#description-video #visualization-date #hashtag-filme {
+    font: 600 14px / 16px "Roboto";
+    color: rgb(169, 168, 168);
+    text-decoration: none;
+    padding-left: 20px;
+}
+#description-video #description {
+    width: 510px;
+    height: 64px;
+    font: 400 14px / 16px "Roboto";
+    color: #515151;
+    margin-top: 12px;
+}
+#description #hashtag-text {
+    font: 500 14px / 16px "Roboto";
+    text-decoration: none;
+}
+.recommendation {
+    width: 396px;
+    margin-top: -746px;
+    margin-left: 1052px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.recommendation #video-1 {
+    display: flex;
+    gap: 12px;
+}
+#video-1 iframe {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+#video-1 #video-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#video-details #title-video {
+    font: 600 14px / 16px "Roboto";
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#video-details #canal-1 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 8px;
+}
+#video-details #information-canal1 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 8px;
+}
+#video-details #information-canal2 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 6px;
+}
+#video-details #information-canal3 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 6px;
+}
+#video-details #information-canal4 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 6px;
+}
+#video-details #information-canal5 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 6px;
+}
+#video-details #information-canal6 {
+    font: 400 12px / 14px "Roboto";
+    color: #515151;
+    margin-top: 6px;
+}
